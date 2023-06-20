@@ -1,5 +1,5 @@
 import { createButton } from './Button';
-import buttonStyles from './button.css';
+import buttonStyles from './button.css?inline';
 
 const buttonAnimations = [
   'fade',

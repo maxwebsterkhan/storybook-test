@@ -48,7 +48,7 @@
 }
 
 .storybook-button:hover.storybook-button--pulse {
-  animation: pulse-throb 1s ease-in-out infinite alternate;
+  animation: pulse 1s ease-in-out infinite alternate;
 }
 
 .storybook-button:hover.storybook-button--rotate {
@@ -86,7 +86,7 @@
   }
 }
 
-@keyframes pulse-throb {
+@keyframes pulse {
   0% {
     transform: scale(1);
   }
